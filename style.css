@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 20% 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 540px;
+    background: rgba(128, 128, 128, 0.249);
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgba(101, 101, 80, 0.336);
+    color: rgb(237, 237, 117);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgba(101, 101, 80, 0.529);
+}
